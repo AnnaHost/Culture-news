@@ -1,27 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
 body {
   font-family: Playfair Display;
   font-style: normal;
   font-weight: normal;
-  width: 1440px;
-}
-p,
-h1 {
-  margin: 0;
 }
 
-header {
+.header {
   height: 218px;
-  width: 100%;
+  max-width: 1440px;
+  padding-top: 60px;
+
+  background-color: rosybrown;
 }
 
 .header-text {
-  width: 100%;
   text-align: center;
-  margin: 0 auto;
   padding-bottom: 46px;
-  padding-top: 60px;
-  font-family: Playfair Display;
-  font-weight: 900;
   font-size: 35px;
   line-height: 47px;
   letter-spacing: 1px;
@@ -30,15 +28,12 @@ header {
 .header-nav {
   display: flex;
   justify-content: space-between;
-  max-width: 1440px;
   margin-right: 135px;
   margin-left: 134px;
 }
 
 .header-nav a {
   font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 15px;
   line-height: 18px;
   letter-spacing: 2px;
@@ -46,21 +41,21 @@ header {
   color: #000000;
 }
 
-.main-image {
-  background-image: url(../img/Hotel.png);
+.main-photo {
   height: 464px;
+  background-image: url(../img/Hotel.png);
 }
 
 .main-header {
-  padding-top: 133px;
-  padding-bottom: 133px;
   font-family: Roboto;
   font-size: 72px;
   line-height: 84px;
   text-align: center;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: white;
+  color: #ffffff;
+  padding-top: 133px;
+  padding-bottom: 133px;
 }
 
 .main-text {
@@ -73,16 +68,14 @@ header {
 
 .cards {
   height: 463px;
-  border: 1px solid red;
+  border: 1px dotted rosybrown;
 }
 
-.abonements {
+.abonemets {
   height: 606px;
-  border: 1px solid black;
 }
 
 .footer {
-  bottom: 0;
+  height: 296px;
   background-color: #575757;
-  height: 295px;
 }
