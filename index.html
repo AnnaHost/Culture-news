@@ -5,11 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="css/style.css" rel="stylesheet" />
     <link
-      href="https://fonts.googleapis.com/css?family=Roboto:wght@400;700&display=swap&sybset=cyrillic"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap&sybset=cyrillic"
+      href="https://fonts.googleapis.com/css?family=Playfair+Display:400,900|Roboto:400,700&display=swap"
       rel="stylesheet"
     />
     <title>Новости культуры</title>
@@ -31,6 +27,7 @@
     </header>
     <main class="main">
       <article class="main-photo">
+        <div class="logo"><img src="img/Group 24.svg" alt="" /></div>
         <h1 class="main-header">Подводный отель</h1>
         <p class="main-text">
           Как известно, Дубай – город контрастов. Самые революционные<br />
@@ -57,8 +54,8 @@
               <h1 class="card-header orange">Анатомия за 30 секунд</h1>
               <p class="card-description">
                 Сейчас, когда мир открыт нараспашку для человека и его
-                познавательных изысканий, интерес к научно‑популярной литературе
-                заметно вырос
+                познавательных изысканий, интерес <br />
+                к научно‑популярной литературе заметно вырос
               </p>
             </figcaption>
           </figure>
@@ -76,8 +73,36 @@
         </div>
       </article>
       <article class="abonemets">
-        <div class="circle"></div>
-        <div class="abonements-footer"></div>
+        <div class="column">
+          <h1 class="column-header">АБОНЕМЕНТЫ В ТЕАТР</h1>
+          <div class="column-card">
+            <h1 class="column-card-header">Скидка 50% на весь сезон 2020</h1>
+            <p class="column-card-description">
+              Покупая абонемент на сезон 2020 года вы сэкономите половину
+              стоимости всех спектаклей
+            </p>
+            <hr class="column-border" />
+          </div>
+          <div class="column-card">
+            <h1 class="column-card-header">Места у сцены</h1>
+            <p class="column-card-description">
+              Только для обладателей абонементов будет возможность сесть поближе
+              к сцене
+            </p>
+            <hr class="column-border" />
+          </div>
+          <div class="column-card">
+            <h1 class="column-card-header">Автограф-сессия актёров</h1>
+            <p class="column-card-description">
+              После спектаклей у вас будет возможность пообщаться с актёрами и
+              взять у них автограф
+            </p>
+          </div>
+          <button class="orange-button">
+            <span class="button-name">смотреть</span>
+            <img src="img/Shape.svg" alt="" />
+          </button>
+        </div>
       </article>
     </main>
     <footer class="footer">
